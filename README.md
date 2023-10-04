@@ -1,3 +1,7 @@
+# 2023-04-10
+
+Added new folder topic_03. In topic_03 four new files task_1.py, task_2.py, task_3.py, task_4.  These four .py files contain solutions to the first(task_1.py), second task(task_2.py), third task(task_3.py), fourth task(task_4.py) respectively, which were given in the lecture.
+
 # 2023-27-09
 
 Added new folder topic_02. In topic_02 three new files task_1.py, task_2.py, task_3.py.  These three .py files contain solutions to the first(task_1.py), second tasks(task_2.py and task_3.py), respectively, which were given in the lecture.
