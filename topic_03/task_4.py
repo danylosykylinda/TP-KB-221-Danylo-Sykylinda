@@ -19,4 +19,3 @@ insert_position = find_insert_position(my_list, new_element)
 
 my_list.insert(insert_position, new_element)
 print(f"The entered element '{new_element}' was inserted at position {insert_position}. Updated list: {my_list}")
-
