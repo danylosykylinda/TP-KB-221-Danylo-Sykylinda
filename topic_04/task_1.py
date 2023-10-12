@@ -46,6 +46,3 @@ def find_excep():
         except ValueError:
             print("ERROR!!! You entered something wrong, please enter it again.")
 find_excep()
-
-        
-            
