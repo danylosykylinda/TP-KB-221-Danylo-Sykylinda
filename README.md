@@ -1,3 +1,7 @@
+# 2023-18-10
+
+Added new folder topic_05.  In the topic_5 folder, two files for two tasks are added (task_1.py, task_2.py) and a folder for third task task_3 with three files calc.py, operations.py, functions.py respectively, which were given in the lecture.
+
 # 2023-11-10
 Added new folder topic_04. In topic_04 one new file task_1.py.  This .py file contains solutions to the first, second tasks, which were given in the lecture. Also (task 3), I read the list of exceptional situations at the link given in the lecture.
 
