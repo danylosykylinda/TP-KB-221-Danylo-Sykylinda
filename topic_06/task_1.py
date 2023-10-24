@@ -19,7 +19,7 @@ while True:
         print("\nYou entered something wrong in the name of the column to be sorted. Please, try again!!!\n")
 
 def sort_dicts(list, name_col):
-    sorted_dict = sorted(list, key=lambda column: column[name_col])
+    sorted_dict = sorted(list, key=lambda dict: dict[name_col])
     if name_col == "grade":
         print("\nSorted by grade\n")
         sorted_dict.reverse()
