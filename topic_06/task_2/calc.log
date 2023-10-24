@@ -1,0 +1,8 @@
+
+23.10.2023 22:15:35  User entered value of a = 6.0 and value of b = 7.0, and operation '+' on them, and got the result 13.0
+23.10.2023 22:15:40  User entered letters or other characters except numbers!
+23.10.2023 22:15:45  User entered letters or other characters except numbers!
+23.10.2023 22:15:50  User entered some characters that are different from operation characters!
+23.10.2023 22:15:53  User entered value of a = 5.0 and value of b = 5.0, and operation '+' on them, and got the result 10.0
+23.10.2023 22:16:05  User entered value of a = 7.0 and value of b = 0.0, and operation '/' on them, and got the result ERROR!!! You are trying to divide a number by zero, please enter it again
+23.10.2023 22:16:31  User left the program!
