@@ -1,5 +1,3 @@
-import operations
-
 def plus(x, y):
     return float(x) + float(y)
 
