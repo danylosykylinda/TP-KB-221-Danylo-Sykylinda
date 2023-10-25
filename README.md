@@ -1,4 +1,4 @@
-# 2023-24-10
+# 2023-25-10
 
 Added new folder topic_06.  In the topic_6 folder, one file for the first task is added (task_1.py) and a folder for the second task task_2 with four files calc.py, operations.py, functions.py and calc.log(logs of the program) respectively, which were given in the lecture.
 
