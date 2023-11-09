@@ -1,3 +1,7 @@
+# 2023-09-11
+
+Added new folder lab_01.  In the lab_01 folder, one file for laboratory task is added (lab_01.py).
+
 # 2023-02-11
 
 Added new folder topic_07.  In the topic_7 folder, one file for the third task is added (task_3.py) and a folder for the fourth task task_4 with four files calc.py, operations.py, functions.py and calc.log(logs of the program) respectively, which were given in the lecture. Two other tasks are reflected in the report.
