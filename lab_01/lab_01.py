@@ -56,25 +56,44 @@ def updateElement():
 
     name = input("Please enter name to be updated: ")
     name_update = input("Please enter new name for this student: ")
-    phone = input("Please enter phone to be updated: ")
-    phone_update = input("Please enter new phone for this student: ")
-    email_update = input("Please enter new email for this student: ")
-    group_update = input("Please enter new group for this student: ")
 
-    found = False
+    deletePosition = -1
 
-    for d in list_students:
-        if d["name"] == name and d["phone"] == phone:
-            d["name"] = name_update
-            d["phone"] = phone_update
-            d["email"] = email_update
-            d["group"] = group_update
-            found = True
+    for item in list_students:
+        if name_update == item["name"]:
+            phone_update = input("Please enter new phone for this student: ")
+            email_update = input("Please enter new email for this student: ")
+            group_update = input("Please enter new group for this student: ")
+            item["phone"] = phone_update
+            item["email"] = email_update
+            item["group"] = group_update
+            print("Element has been updated")
+            deletePosition = -2
             break
-    if found == False:
-        print("\n Student is not found!!! Please, try again.\n")
+        elif name_update != item["name"] and name == item["name"]:
+            deletePosition = list_students.index(item)
+            if deletePosition == -1:
+                print("Student is not found. Please, try again correctly.")
+            else:
+                print("Dele position " + str(deletePosition))
+                list_students.pop(deletePosition)
 
-    list_students = sorted(list_students, key=lambda x: x["name"])
+            phone_update = input("Please enter new phone for this student: ")
+            email_update = input("Please enter new email for this student: ")
+            group_update = input("Please enter new group for this student: ")
+
+            newItem = {"name": name_update, "phone": phone_update, "email": email_update, "group": group_update}
+            insertPosition = 0
+            for item_up in list_students:
+                if name_update > item_up["name"]:
+                    insertPosition += 1
+                else:
+                    break
+            list_students.insert(insertPosition, newItem)
+            print("Element has been updated")
+            break
+    if deletePosition == -1:
+            print("Student is not found. Please, try again correctly.")
     return
 
 def main():
