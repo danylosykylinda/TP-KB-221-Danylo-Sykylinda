@@ -60,7 +60,7 @@ def updateElement():
     deletePosition = -1
 
     for item in list_students:
-        if name_update == item["name"]:
+        if name_update == item["name"] and name == item["name"]:
             phone_update = input("Please enter new phone for this student: ")
             email_update = input("Please enter new email for this student: ")
             group_update = input("Please enter new group for this student: ")
