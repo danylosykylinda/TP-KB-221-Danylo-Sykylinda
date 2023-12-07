@@ -16,6 +16,7 @@ class TestLab2(unittest.TestCase):
         with patch('builtins.input', side_effect=['Denys', '0673838838', 'denys@gmail.com', 'CS-221']):
             addNewElement(self.list_students)
         self.assertEqual(self.list_students[1]["name"], "Denys")
+        self.assertEqual(self.list_students[2]["name"], "Emma")
     
 
     def test_updateElement(self):
