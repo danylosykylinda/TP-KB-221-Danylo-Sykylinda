@@ -1,4 +1,5 @@
 import unittest
+import os
 from unittest.mock import patch
 from lab_02 import *
 
@@ -29,16 +30,16 @@ class TestLab2(unittest.TestCase):
             deleteElement(self.list_students)
         self.assertNotIn({"name": "Michael", "phone": "0994747444", "email": "michael@gmail.com", "group": "AB-219"}, self.list_students)
 
+
     def test_save_csv(self):
-        #save_csv('test_lab2.csv', self.list_students)
-        self.assertListEqual(self.list_students,
-            [
-            {"name": "Bob", "phone": "0631234567", "email": "bob@gmail.com", "group": "CS-221"},
-            {"name": "Denys", "phone": "0673838838", "email": "denys@gmail.com", "group": "CS-221"},
-            {"name": "Emma", "phone": "0637457545", "email": "emma@gmail.com", "group": "CS-221"},
-            {"name": "William", "phone": "06757577575", "email": "william@gmail.com", "group": "CS-221"},
-            {"name": "Zak", "phone": "0635545467", "email": "zak@gmail.com", "group": "CE-221"}
-            ])
+        try:
+            save_csv('test_lab2.csv', self.list_students)
+            self.assertTrue(os.path.isfile('test_lab2.csv'))
+            data = load_csv('test_lab2.csv')
+            self.assertEqual(data, self.list_students)
+        finally:
+            pass
+
 
 if __name__ == '__main__':
     unittest.main()
