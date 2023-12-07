@@ -13,6 +13,7 @@ def load_csv(file_name):
     except FileNotFoundError:
         print("File not found!")
 
+
 def save_csv(file_name, list_students):
     with open(file_name, 'w', newline='') as file:
         fieldnames = ["name", "phone", "email", "group"]
@@ -134,3 +135,4 @@ def main():
                 print("Wrong chouse")
 if __name__ == '__main__':
     main()
+    
