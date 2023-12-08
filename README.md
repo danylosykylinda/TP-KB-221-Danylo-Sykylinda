@@ -1,3 +1,7 @@
+# 2023-07-12
+
+Added new folder lab_02. In the lab_02 folder, four file for laboratory task are added (lab_02.py and test.py, and lab2.csv, and test_lab2.csv).
+
 # 2023-20-11
 
 Rewritten solution for lab_01 and the report is updated.
