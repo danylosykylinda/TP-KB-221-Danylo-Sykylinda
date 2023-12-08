@@ -1,10 +1,6 @@
-# 2023-20-11
-
-Rewritten solution for lab_01 and the report is updated.
-
 # 2023-09-11
 
-Added new folder lab_01. In the lab_01 folder, one file for laboratory task is added (lab_01.py).
+Added new folder lab_01.  In the lab_01 folder, one file for laboratory task is added (lab_01.py).
 
 # 2023-02-11
 
