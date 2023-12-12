@@ -1,6 +1,6 @@
 # 2023-10-12
 
-Added new folder lab_04. In the lab_04 folder, two file for laboratory task are added (lab_03.py and test.py).
+Added new folder lab_04. In the lab_04 folder, two file for laboratory task are added (lab_04.py and test.py).
 
 # 2023-08-12
 
